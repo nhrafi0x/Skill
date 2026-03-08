@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-serif: "Merriweather", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-brand-primary: #f59e0b; /* amber-500 */
+  --color-brand-secondary: #0f172a; /* slate-900 */
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
